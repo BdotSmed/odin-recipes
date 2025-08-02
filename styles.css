@@ -1,0 +1,82 @@
+
+header {
+    font-family: "Playfair";
+    font-style: "Normal";
+    font-weight: "450";
+    background-color: #FAF9F6;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair";
+    font-style: "Normal";
+    font-weight: "450";
+    background-color: #FAF9F6;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    top: 0;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
+
+
+
+/* For a later time, have elements of icons and paragraph to be stacked on top of each other, and the ul to be on the right hand side of the footer */
+footer { 
+    display: flex;
+    font-family: "Playfair";
+    font-style: "Normal";
+    font-weight: "450";
+    background-color: #FAF9F6;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    top: 0;
+    position: sticky;
+    flex-direction: column;
+}
+
+.footerNav ul li {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px; 
+    gap: 1rem;
+}
